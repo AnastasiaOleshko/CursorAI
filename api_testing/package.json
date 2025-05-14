@@ -1,0 +1,21 @@
+{
+  "name": "fakestore-api-testing",
+  "version": "1.0.0",
+  "description": "Automated tests for FakeStore API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": ["api", "testing", "jest", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.10",
+    "dotenv": "^16.3.1"
+  }
+} 
